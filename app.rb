@@ -10,6 +10,11 @@ set :database_file, "config/database.yml"
 class Client < ActiveRecord::Base
 end
 
+class Barber < ActiveRecord::Base
+
+end
+
+
 get '/' do
 	erb "Hello!"
 end
