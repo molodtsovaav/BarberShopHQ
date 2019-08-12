@@ -5,4 +5,4 @@
 .ruby-gemset
 manifest.yml
 *.sql
-db/
+
